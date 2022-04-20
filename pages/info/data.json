@@ -1,0 +1,197 @@
+{
+  "alphabet": [
+    "A",
+    "B",
+    "C",
+    "D",
+    "E",
+    "F",
+    "G",
+    "H",
+    "I",
+    "J",
+    "K",
+    "L",
+    "M",
+    "N",
+    "O",
+    "P",
+    "Q",
+    "R",
+    "S",
+    "T",
+    "U",
+    "V",
+    "W",
+    "X",
+    "Y",
+    "Z"
+  ],
+
+
+  "number":[
+    {
+      "figure": 1,
+      "name": "one"
+    },
+    {
+      "figure": 2,
+      "name": "two"
+    },
+    {
+      "figure": 3,
+      "name": "three"
+    },
+    {
+      "figure": 4,
+      "name": "four"
+    },
+    {
+      "figure": 5,
+      "name": "five"
+    },
+    {
+      "figure": 6,
+      "name": "six"
+    },
+    {
+      "figure": 7,
+      "name": "seven"
+    },
+    {
+      "figure": 8,
+      "name": "eight"
+    },
+    {
+      "figure": 9,
+      "name": "nine"
+    },
+    {
+      "figure": 10,
+      "name": "ten"
+    },
+    {
+      "figure": 11,
+      "name": "eleven"
+    },
+    {
+      "figure": 12,
+      "name": "twelve"
+    },
+    {
+      "figure": 13,
+      "name": "thirteen"
+    },
+    {
+      "figure": 14,
+      "name": "fourteen"
+    },
+    {
+      "figure": 15,
+      "name": "fiveteen"
+    },
+    {
+      "figure": 16,
+      "name": "sixteen"
+    },
+    {
+      "figure": 17,
+      "name": "seventeen"
+    },
+    {
+      "figure": 18,
+      "name": "eighteen"
+    },
+    {
+      "figure": 19,
+      "name": "nineteen"
+    },
+    {
+      "figure": 20,
+      "name": "twenty"
+    }
+        {
+      "figure": 21,
+      "name": "twentyone"
+    },
+    {
+      "figure": 22,
+      "name": "twentytwo"
+    },
+    {
+      "figure": 23,
+      "name": "twentythree"
+    },
+    {
+      "figure": 24,
+      "name": "twentyfour"
+    },
+    {
+      "figure": 25,
+      "name": "twentyfive"
+    },
+    {
+      "figure": 26,
+      "name": "twentysix"
+    },
+    {
+      "figure": 27,
+      "name": "twentyseven"
+    },
+    {
+      "figure": 28,
+      "name": "twentyeight"
+    },
+    {
+      "figure": 29,
+      "name": "twentynine"
+    },
+    {
+      "figure": 30,
+      "name": "thirty"
+    }
+  ],
+  "roman":[
+   {
+      "figure": 1,
+      "name": "I"
+    },
+    {
+      "figure": 2,
+      "name": "II"
+    },
+    {
+      "figure": 3,
+      "name": "III"
+    },
+    {
+      "figure": 4,
+      "name": "IV"
+    },
+    {
+      "figure": 5,
+      "name": "V"
+    },
+    {
+      "figure": 6,
+      "name": "VI"
+    },
+    {
+      "figure": 7,
+      "name": "VII"
+    },
+    {
+      "figure": 8,
+      "name": "VIII"
+    },
+    {
+      "figure": 9,
+      "name": "IX"
+    },
+    {
+      "figure": 10,
+      "name": "X"
+    }
+]
+ 
+}

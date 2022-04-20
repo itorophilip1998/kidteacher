@@ -3,7 +3,6 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-headadd .
   router: {
-
     scrollBehavior: async function (to, from, savedPosition) {
       if (savedPosition) {
         return savedPosition
@@ -52,13 +51,11 @@ export default {
     // '~/plugins/firebase.js'
   ],
 
-  // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-      // '~/modules/ngrok'
-
+    // '~/modules/ngrok'
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -83,32 +80,31 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     meta: {
-      title: 'Speech Recognition System',
-      author: 'Group1',
+      title: 'Multisensory System',
+      author: 'Group10',
     },
     icon: {
       fileName: 'logo.png',
     },
     manifest: {
-      name: 'Speech Recognition System',
-      short_name: 'speechbot',
+      name: 'Multisensory System',
+      short_name: 'kidteacher',
       lang: 'en',
       display: 'standalone',
       start_url: '/',
       useWebmanifestExtension: false,
-      description: 'Speech Recognition System',
-      background_color: '#4B0082',
-      theme_color: '#4B0082',
+      description: 'Multisensory System',
+      background_color: '#4169E1',
+      theme_color: '#fff',
       splash_pages: '/',
     },
   },
 
-  // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {},
   loadingIndicator: {
     name: 'three-bounce',
     color: 'white',
-    background: '#4B0082',
+    background: '#4169E1',
   },
   loading: '~/components/LoadingBar.vue',
 }

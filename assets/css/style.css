@@ -1,42 +1,47 @@
- 
-.text-primary{
-  color:indigo !important;
+:root {
+  --primary: royalblue !important;
 }
-.bg-primary{
-  background:indigo !important;
+.text-primary {
+  color: royalblue !important;
 }
-.btn-primary{
-  background:indigo !important;
-  color:white;
-  border:indigo !important;
+.bg-primary {
+  background: royalblue !important;
 }
-.border-primary{
-  color:1px solid indigo !important;
+.btn-primary {
+  background: royalblue !important;
+  color: white;
+  border: royalblue !important;
 }
-.text-light{
-  color:rgb(218, 214, 214) !important;
+.border-primary {
+  color: 1px solid royalblue !important;
+}
+.text-light {
+  color: rgb(218, 214, 214) !important;
 }
 
-input,textarea,select{
-border:0px !important;
-border-bottom:1px solid indigo !important;
-font-size: 17px;
-font-family: consolas;
-background:transparent !important
+input,
+textarea,
+select {
+  border: 0px !important;
+  border-bottom: 1px solid royalblue !important;
+  font-size: 17px;
+  font-family: consolas;
+  background: transparent !important;
 }
-input:focus,textarea:focus,select:focus{
-border-bottom:2px solid indigo !important;
+input:focus,
+textarea:focus,
+select:focus {
+  border-bottom: 2px solid royalblue !important;
 }
-.border-none{
-  border:none !important
+.border-none {
+  border: none !important;
 }
 :focus-visible {
-    outline: none;
+  outline: none;
 }
-.fa{
-background:transparent !important
-
+.fa {
+  background: transparent !important;
 }
-.rounded-x{
-  border-radius:10px;
+.rounded-x {
+  border-radius: 10px;
 }

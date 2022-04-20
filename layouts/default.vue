@@ -1,6 +1,5 @@
 <template>
-  <div  class="bg-light pb-3">
-  <Header v-if="$route.path=='/' || $route.path=='/chat' " class="d-none"/>
+  <div  class=" pb-3"> 
    <Nuxt/>
   </div>
 </template>

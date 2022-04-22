@@ -46,6 +46,7 @@ export default {
 </script>
 
 <style>
+
 .hero {
   /* background-image:url("~assets/images/hero.jpg"); */
   height: 100vh;

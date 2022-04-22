@@ -11,7 +11,7 @@
       </span>
     </div>
 
-    <div class="row m-0 mt-5 p-2 pt-2">
+    <div class="row m-0 mt-5 p-2 pt-2 data2">
       <div class="col-5 card-content mx-auto p-2 shadow text-center" @click="$router.push('/dashboard/alphabet')">
         <div class="card-head">
           <img src="~assets/kidteachers/alphabet.jpg" class="cardimg" />
@@ -70,6 +70,10 @@ export default {
 }
 </script>
 <style>
+.data2{
+  margin-top: 240px !important;
+
+}
 .cardimg {
   width: 100%;
   border-radius: 4px;

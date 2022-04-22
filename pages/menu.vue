@@ -12,28 +12,40 @@
     </div>
 
     <div class="row m-0 mt-5 p-2 pt-2 data2">
-      <div class="col-5 card-content mx-auto p-2 shadow text-center" @click="$router.push('/dashboard/alphabet')">
+      <div
+        class="col-5 card-content mx-auto p-2 shadow text-center"
+        @click="$router.push('/dashboard/alphabet')"
+      >
         <div class="card-head">
           <img src="~assets/kidteachers/alphabet.jpg" class="cardimg" />
         </div>
         <div class="card-body small">Alphabet</div>
       </div>
 
-      <div class="col-5 mx-auto card-content p-2 shadow text-center" @click="$router.push('/dashboard/number')">
+      <div
+        class="col-5 mx-auto card-content p-2 shadow text-center"
+        @click="$router.push('/dashboard/number')"
+      >
         <div class="card-head">
           <img src="~assets/kidteachers/number.jpg" class="cardimg" />
         </div>
         <div class="card-body small">Numbers</div>
       </div>
 
-      <div class="col-5 mx-auto card-content p-2 mt-4 shadow text-center" @click="$router.push('/dashboard/romanfigure')">
+      <div
+        class="col-5 mx-auto card-content p-2 mt-4 shadow text-center"
+        @click="$router.push('/dashboard/romanfigure')"
+      >
         <div class="card-head">
           <img src="~assets/kidteachers/romanfigure.png" class="cardimg" />
         </div>
         <div class="card-body small">Romanfigure</div>
       </div>
 
-      <div class="col-5 mx-auto card-content p-2 mt-4 shadow text-center" @click="$router.push('/dashboard/basic')">
+      <div
+        class="col-5 mx-auto card-content p-2 mt-4 shadow text-center"
+        @click="$router.push('/dashboard/basic')"
+      >
         <div class="card-head">
           <img src="~assets/kidteachers/basic.jpg" class="cardimg" />
         </div>
@@ -70,9 +82,12 @@ export default {
 }
 </script>
 <style>
-.data2{
+.name {
+  z-index: 3 !important;
+  position: fixed;
+}
+.data2 {
   margin-top: 240px !important;
-
 }
 .cardimg {
   width: 100%;

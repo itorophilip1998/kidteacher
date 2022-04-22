@@ -37,6 +37,9 @@ export default {
   border-bottom-left-radius: 40px;
   border-bottom-right-radius: 40px;
   height: 200px;
+  position: fixed;
+  z-index: 3 !important;
+  top: 0;
 }
 .navbar-brand > .fa {
   position: absolute;

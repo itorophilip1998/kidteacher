@@ -10,17 +10,13 @@
         <i class="fa fa-play rounded-lg" aria-hidden="true"></i>
         <small>Visual Learning</small>
       </span>
-    </div>
-
+    </div> 
     <div class="row m-0 mt-5 p-2 pt-2">
-      <div
-        class="col-5 mx-auto card-content p-2 mt-4 shadow text-center"
-        @click="$router.push('/dashboard/basic')"
-      >
+      <div class="col-5 mx-auto card-content p-2 mt-4 shadow text-center">
         <div class="card-head">
           <h1 class="headText">1</h1>
         </div>
-        <div class="card-body small">One</div>
+        <div class="card-body small ">One</div>
       </div>
     </div>
   </div>
@@ -28,6 +24,8 @@
 
 <script>
 import Header from '@/components/auth-header'
+import data from '../info/data.json'
+
 export default {
   components: {
     Header,
@@ -42,30 +40,19 @@ export default {
         icon: 'fa-pencil',
         dashboard: true,
       },
+      data,
     }
   },
 
-  mounted() {
-    var msg = new SpeechSynthesisUtterance()
-    var voices = window.speechSynthesis.getVoices()
-    msg.voice = voices[10]
-    msg.volume = 1 // From 0 to 1
-    msg.rate = 1 // From 0.1 to 10
-    msg.pitch = 2 // From 0 to 2
-    msg.text = 'Como estas Joel'
-    msg.lang = 'es'
-    speechSynthesis.speak(msg)
-  },
-
   methods: {
-    voice() {
+    voice(text) {
       var msg = new SpeechSynthesisUtterance()
       var voices = window.speechSynthesis.getVoices()
-      msg.voice = voices[10]
+      msg.voice = voices[6]
       msg.volume = 1 // From 0 to 1
       msg.rate = 1 // From 0.1 to 10
-      msg.pitch = 2 // From 0 to 2
-      msg.text = 'Hello Sir'
+      msg.pitch = 0 // From 0 to 2
+      msg.text = text
       msg.lang = 'en-US'
       speechSynthesis.speak(msg)
     },
@@ -73,6 +60,9 @@ export default {
 }
 </script>
 <style>
+.small{
+  text-decoration:u
+}
 .headText {
   font-size: 70px;
 }

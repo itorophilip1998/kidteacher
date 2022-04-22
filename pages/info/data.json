@@ -31,165 +31,165 @@
 
   "number":[
     {
-      "figure": 1,
+      "value": 1,
       "name": "one"
     },
     {
-      "figure": 2,
+      "value": 2,
       "name": "two"
     },
     {
-      "figure": 3,
+      "value": 3,
       "name": "three"
     },
     {
-      "figure": 4,
+      "value": 4,
       "name": "four"
     },
     {
-      "figure": 5,
+      "value": 5,
       "name": "five"
     },
     {
-      "figure": 6,
+      "value": 6,
       "name": "six"
     },
     {
-      "figure": 7,
+      "value": 7,
       "name": "seven"
     },
     {
-      "figure": 8,
+      "value": 8,
       "name": "eight"
     },
     {
-      "figure": 9,
+      "value": 9,
       "name": "nine"
     },
     {
-      "figure": 10,
+      "value": 10,
       "name": "ten"
     },
     {
-      "figure": 11,
+      "value": 11,
       "name": "eleven"
     },
     {
-      "figure": 12,
+      "value": 12,
       "name": "twelve"
     },
     {
-      "figure": 13,
+      "value": 13,
       "name": "thirteen"
     },
     {
-      "figure": 14,
+      "value": 14,
       "name": "fourteen"
     },
     {
-      "figure": 15,
+      "value": 15,
       "name": "fiveteen"
     },
     {
-      "figure": 16,
+      "value": 16,
       "name": "sixteen"
     },
     {
-      "figure": 17,
+      "value": 17,
       "name": "seventeen"
     },
     {
-      "figure": 18,
+      "value": 18,
       "name": "eighteen"
     },
     {
-      "figure": 19,
+      "value": 19,
       "name": "nineteen"
     },
     {
-      "figure": 20,
+      "value": 20,
       "name": "twenty"
-    }
+    },
         {
-      "figure": 21,
+      "value": 21,
       "name": "twentyone"
     },
     {
-      "figure": 22,
+      "value": 22,
       "name": "twentytwo"
     },
     {
-      "figure": 23,
+      "value": 23,
       "name": "twentythree"
     },
     {
-      "figure": 24,
+      "value": 24,
       "name": "twentyfour"
     },
     {
-      "figure": 25,
+      "value": 25,
       "name": "twentyfive"
     },
     {
-      "figure": 26,
+      "value": 26,
       "name": "twentysix"
     },
     {
-      "figure": 27,
+      "value": 27,
       "name": "twentyseven"
     },
     {
-      "figure": 28,
+      "value": 28,
       "name": "twentyeight"
     },
     {
-      "figure": 29,
+      "value": 29,
       "name": "twentynine"
     },
     {
-      "figure": 30,
+      "value": 30,
       "name": "thirty"
     }
   ],
   "roman":[
    {
-      "figure": 1,
+      "value": 1,
       "name": "I"
     },
     {
-      "figure": 2,
+      "value": 2,
       "name": "II"
     },
     {
-      "figure": 3,
+      "value": 3,
       "name": "III"
     },
     {
-      "figure": 4,
+      "value": 4,
       "name": "IV"
     },
     {
-      "figure": 5,
+      "value": 5,
       "name": "V"
     },
     {
-      "figure": 6,
+      "value": 6,
       "name": "VI"
     },
     {
-      "figure": 7,
+      "value": 7,
       "name": "VII"
     },
     {
-      "figure": 8,
+      "value": 8,
       "name": "VIII"
     },
     {
-      "figure": 9,
+      "value": 9,
       "name": "IX"
     },
     {
-      "figure": 10,
+      "value": 10,
       "name": "X"
     }
 ]

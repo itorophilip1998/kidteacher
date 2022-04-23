@@ -15,7 +15,7 @@
       <div
         class="row m-0 mt-3 p-2 pt-2"
         v-for="(item, index) in data.number"
-        @click="speak(item)"
+        @click="speak(item.name)"
       >
         <div class="col-5 mx-auto card-content p-2 mt-4 shadow text-center">
           <div class="card-head">
@@ -79,7 +79,7 @@ export default {
       msg.rate = 1 // From 0.1 to 10
       msg.pitch = 0 // From 0 to 2
       msg.lang = 'en-US'
-      msg.text = data.name
+      msg.text = 'Counting Numbers'
       speechSynthesis.speak(msg)
     },
     speak(text) {

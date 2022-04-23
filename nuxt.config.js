@@ -41,7 +41,7 @@ export default {
       { hid: 'description', name: 'description', content: '' },
       { name: 'format-detection', content: 'telephone=no' },
     ],
-    link: [{ rel: 'icon', type: 'image/x-icon', href: '/logo.png' }],
+    link: [{ rel: 'icon', type: 'image/x-icon', href: '/logo.jpg' }],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -84,7 +84,7 @@ export default {
       author: 'Group10',
     },
     icon: {
-      fileName: 'logo.png',
+      fileName: 'logo.jpg',
     },
     manifest: {
       name: 'Multisensory System',
@@ -95,7 +95,7 @@ export default {
       useWebmanifestExtension: false,
       description: 'Multisensory System',
       background_color: '#fff',
-      theme_color: '##4169E1',
+      theme_color: '#4169E1',
       splash_pages: '/',
     },
   },

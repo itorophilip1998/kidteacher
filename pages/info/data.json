@@ -28,8 +28,7 @@
     "Z"
   ],
 
-
-  "number":[
+  "number": [
     {
       "value": 1,
       "name": "one"
@@ -110,7 +109,7 @@
       "value": 20,
       "name": "twenty"
     },
-        {
+    {
       "value": 21,
       "name": "twentyone"
     },
@@ -151,47 +150,46 @@
       "name": "thirty"
     }
   ],
-  "roman":[
-   {
-      "value": 1,
+  "roman": [
+    {
+      "value": "one",
       "name": "I"
     },
     {
-      "value": 2,
+      "value": "two",
       "name": "II"
     },
     {
-      "value": 3,
+      "value": "three",
       "name": "III"
     },
     {
-      "value": 4,
+      "value": "four",
       "name": "IV"
     },
     {
-      "value": 5,
+      "value": "five",
       "name": "V"
     },
     {
-      "value": 6,
+      "value": "six",
       "name": "VI"
     },
     {
-      "value": 7,
+      "value": "seven",
       "name": "VII"
     },
     {
-      "value": 8,
+      "value": "eight",
       "name": "VIII"
     },
     {
-      "value": 9,
+      "value": "nine",
       "name": "IX"
     },
     {
-      "value": 10,
+      "value": "ten",
       "name": "X"
     }
-]
- 
+  ]
 }

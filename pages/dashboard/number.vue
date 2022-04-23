@@ -15,9 +15,9 @@
       <div
         class="row m-0 mt-3 p-2 pt-2"
         v-for="(item, index) in data.number"
-        @click="speak(item.name)"
+       
       >
-        <div class="col-5 mx-auto card-content p-2 mt-4 shadow text-center">
+        <div class="col-5 mx-auto card-content p-2 mt-4 shadow text-center"  @click="speak(item.name)">
           <div class="card-head">
             <h1 class="headText">{{ item.value }}</h1>
           </div>

@@ -12,12 +12,11 @@
       </span>
     </div>
     <div class="data" v-if="isDefault">
-      <div
-        class="row m-0 mt-3 p-2 pt-2"
-        v-for="(item, index) in data.alphabet"
-        @click="speak(item)"
-      >
-        <div class="col-5 mx-auto card-content p-2 mt-4 shadow text-center">
+      <div class="row m-0 mt-3 p-2 pt-2" v-for="(item, index) in data.alphabet">
+        <div
+          class="col-5 mx-auto card-content p-2 mt-4 shadow text-center"
+          @click="speak(item)"
+        >
           <div class="card-head">
             <h1 class="headText">{{ item }}</h1>
           </div>

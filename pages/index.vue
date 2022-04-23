@@ -46,7 +46,6 @@ export default {
 </script>
 
 <style>
-
 .hero {
   /* background-image:url("~assets/images/hero.jpg"); */
   height: 100vh;
@@ -56,7 +55,7 @@ export default {
   bottom: 0;
 }
 .overlay {
-  background: rgba(0, 0, 0, 0.5) !important;
+  background: rgba(0, 0, 0, 0.7) !important;
 }
 .my-container {
   z-index: 4 !important;
